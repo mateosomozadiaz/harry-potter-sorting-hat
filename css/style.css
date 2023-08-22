@@ -1,0 +1,263 @@
+/** Estilo de el index y otras reglas usadas en todos los archivos **/
+
+@font-face {
+    font-family: "harry-potter";
+    src: url(../fonts/harry-potter.ttf)
+}
+
+@font-face {
+    font-family: "ptserif-regular";
+    src: url(../fonts/ptserif-regular.ttf)
+}
+
+* {
+    color: rgb(114, 32, 32);
+    font-family: ptserif-regular;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    background-image: url(../img/brown-paper.png);
+}
+
+h1 {
+    text-align: center;
+    font-family: harry-potter;
+    font-size: 2.1rem;
+    color: rgb(114, 32, 32);
+}
+
+header {
+    padding: 20px;
+}
+
+li {
+    margin: 10px;
+    font-weight: bolder;
+    list-style: none;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    padding-top: 0%;
+    border-top: 5px solid rgb(114, 32, 32);
+    border-bottom: 5px solid rgb(114, 32, 32);
+}
+
+.hat-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.hat-section img {
+    width: 300px;
+}
+
+.hat-section div {
+    margin: 3%;
+}
+
+.hat-section p {
+    font-size: 120%;
+}
+
+.hat-section h2 {
+    text-align: center;
+}
+
+.house-logo {
+    width: 170px;
+}
+
+.houses section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.gryffindor-section {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 30%;
+    background-color: rgba(194, 51, 51, 0.61);
+}
+
+.hufflepuff-section {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    text-align: right;
+    margin-left: 30%;
+    margin-right: 0px;
+    background-color: rgba(204, 191, 69, 0.61);
+}
+
+.ravenclaw-section {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 30%;
+    background-color: rgba(89, 101, 165, 0.61);
+}
+
+.slytherin-section {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    text-align: right;
+    margin-left: 30%;
+    margin-right: 0px;
+    background-color: rgba(63, 167, 15, 0.336);
+}
+
+.house-sections {
+    width: 60%;
+}
+
+footer {
+    background-color: transparent;
+    border-top: 2% rgb(114, 32, 32) solid;
+    padding: 1rem;
+    font-size: 105%;
+    text-align: center;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+/** Sección de estilo del quizz **/
+
+.quizz-choice {
+    width: 50%;
+    padding: 1%;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    background-color: transparent;
+    border: 4px solid rgb(114, 32, 32);
+    font-size: 105%;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.quizz-choice:active {
+    transition: 0.1s;
+    background-color: rgba(114, 32, 32, 0.349);
+}
+
+.question {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-bottom: 4px solid rgb(114, 32, 32);
+    font-size: 105%;
+    font-weight: bolder;
+}
+
+/** Sección de comentarios sobre la página (formulario) **/
+
+input {
+    margin-top: 2%;
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    background: transparent;
+    border: 4px solid rgb(114, 32, 32);
+    text-align: center;
+    font-size: 120%;
+    outline: none;
+}
+
+textarea {
+    margin-top: 2%;
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    background: transparent;
+    border: 4px solid rgb(114, 32, 32);
+    text-align: center;
+    font-size: 120%;
+    resize: none;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(114, 32, 32);
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: rgb(114, 32, 32);
+}
+
+.button {
+    width: 20%;
+    padding: 0.2%;
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    background-color: transparent;
+    border: 4px solid rgb(114, 32, 32);
+    font-size: 105%;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.button:active {
+    transition: 0.1s;
+    background-color: rgba(114, 32, 32, 0.349);
+}
+
+/** Sección sobre los libros **/
+
+.books {
+    width: 100px;
+}
+
+.book-section h2 {
+    text-align: center;
+}
+
+.each-book {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.each-book1 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+/** Sección sobre la autora de Harry Potter **/
+
+.hp-author {
+    width: 22%;
+    margin-left: 39%;
+    border-radius: 360px;
+    margin-top: 1%;
+    border: 5px solid rgb(114, 32, 32);
+}
+
+.about-description {
+    width: 70%;
+    margin-left: 15%;
+    font-weight: bold;
+}
