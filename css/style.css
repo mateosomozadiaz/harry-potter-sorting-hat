@@ -50,8 +50,12 @@ ul {
     padding: 0px;
 }
 
-a {
+body a{
     text-decoration: none;
+    color: rgb(114, 32, 32);
+    font-family: ptserif-regular;
+    margin: 0px;
+    padding: 0px;
 }
 
 .banner {
