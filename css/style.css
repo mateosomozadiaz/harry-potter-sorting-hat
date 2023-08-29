@@ -31,6 +31,7 @@ h1 {
 
 header {
     padding: 20px;
+    padding-bottom: 0;
 }
 
 li {
@@ -43,11 +44,12 @@ nav {
     text-align: center;
 }
 
-ul {
+body ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0px;
+    margin-bottom: 6px;
 }
 
 body a{
@@ -88,47 +90,78 @@ body a{
 
 .house-logo {
     width: 170px;
+    margin: auto;
+    display: block;
 }
 
 .houses section {
     margin-top: 2%;
     margin-bottom: 2%;
+    padding: 10px;
+}
+
+.houses p {
+    width: 80%;
 }
 
 .gryffindor-section {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     text-align: left;
     margin-left: 0px;
     margin-right: 30%;
     background-color: rgba(194, 51, 51, 0.61);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.gryffindor-section p {
+    color: rgb(109, 24, 24);
 }
 
 .hufflepuff-section {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
+    display: flex;
+    flex-wrap: wrap;
     text-align: right;
     margin-left: 30%;
     margin-right: 0px;
     background-color: rgba(204, 191, 69, 0.61);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.hufflepuff-section p {
+    color: rgb(83, 63, 19);
 }
 
 .ravenclaw-section {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     text-align: left;
     margin-left: 0px;
     margin-right: 30%;
     background-color: rgba(89, 101, 165, 0.61);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.ravenclaw-section p {
+    color: rgb(14, 24, 77);
 }
 
 .slytherin-section {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
+    display: flex;
+    flex-wrap: wrap;
     text-align: right;
     margin-left: 30%;
     margin-right: 0px;
     background-color: rgba(63, 167, 15, 0.336);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.slytherin-section p {
+    color: rgb(19, 44, 8);
 }
 
 .house-sections {
