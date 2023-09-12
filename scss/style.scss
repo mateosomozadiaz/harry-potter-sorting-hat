@@ -1,0 +1,17 @@
+@import "global";
+
+/* General */
+@import "header";
+@import "footer";
+
+/* Specific */
+@import "hat-section"; /* Home */
+@import "house-banners"; /* Home */
+
+@import "quizz"; /* Quizz */
+
+@import "comments-form"; /* Comments Form */
+
+@import "about"; /* About */
+
+@import "books"; /* Books */

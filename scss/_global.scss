@@ -1,0 +1,34 @@
+/* Variables */
+
+$red-ink: rgb(114, 32, 32);
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Settings */
+
+* {
+    color: $red-ink;
+    font-family: ptserif-regular;
+}
+
+body {
+    background-image: url(../img/brown-paper.png);
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "harry-potter";
+    src: url(../fonts/harry-potter.ttf);
+}
+
+@font-face {
+    font-family: "ptserif-regular";
+    src: url(../fonts/ptserif-regular.ttf);
+}

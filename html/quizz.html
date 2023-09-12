@@ -5,8 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
   <script src="../js/script.js"></script>
   <title>Quizz - Harry Potter: Sorting Hat</title>
   <link rel="icon" type="image/png" href="../img/favicon.png" />
@@ -26,19 +29,21 @@
     </nav>
   </header>
   <main>
-  <p id="question" class="question">Question</p>
+    <div class="quizz-container">
+      <p id="question">Question</p>
 
-  <button onclick="clicked('A')" class="quizz-choice" id="choiceA">Choice A</button>
-  <button onclick="clicked('B')" class="quizz-choice" id="choiceB">Choice B</button>
-  <button onclick="clicked('C')" class="quizz-choice" id="choiceC">Choice C</button>
-  <button onclick="clicked('D')" class="quizz-choice" id="choiceD">Choice D</button>
+      <button onclick="clicked('A')" id="choiceA">Choice A</button>
+      <button onclick="clicked('B')" id="choiceB">Choice B</button>
+      <button onclick="clicked('C')" id="choiceC">Choice C</button>
+      <button onclick="clicked('D')" id="choiceD">Choice D</button>
+    </div>
   </main>
   <footer>
     <p>
       Developed by
       <a href="https://github.com/mateosomozadiaz">Mateo Somoza Diaz</a>
     </p>
-    </footer>
+  </footer>
 </body>
 
 </html>
