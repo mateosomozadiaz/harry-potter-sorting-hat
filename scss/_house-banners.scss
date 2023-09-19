@@ -8,7 +8,6 @@
         padding: 10px;
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
         img {
             width: 170px;
             margin: auto;
@@ -71,6 +70,32 @@
         }
         h3 {
             color: rgb(19, 44, 8);
+        }
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .houses-container {
+        margin: 30px;
+        .gryffindor-section {
+            margin: 4% auto;
+            display: block;  
+            border-radius: 30px;   
+        }
+        .hufflepuff-section {
+            margin: 4% auto;
+            display: block;     
+            border-radius: 30px;   
+        }
+        .ravenclaw-section {
+            margin: 4% auto;
+            display: block;    
+            border-radius: 30px;    
+        }
+        .slytherin-section {
+            margin: 4% auto;
+            display: block;     
+            border-radius: 30px;   
         }
     }
 }

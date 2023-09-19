@@ -103,9 +103,23 @@ footer a {
   background-color: rgba(114, 32, 32, 0.349);
 }
 .hat-container .image img {
-  width: 300px;
+  width: 250px;
 }
 
+@media only screen and (max-width: 1090px) {
+  .hat-container {
+    display: block;
+  }
+  .hat-container .text {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .hat-container .image img {
+    margin: auto;
+    display: block;
+  }
+}
 /* Home */
 /* Houses Section */
 .houses-container article {
@@ -115,7 +129,6 @@ footer a {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
 }
 .houses-container article img {
   width: 170px;
@@ -180,6 +193,31 @@ footer a {
   color: rgb(19, 44, 8);
 }
 
+@media only screen and (max-width: 730px) {
+  .houses-container {
+    margin: 30px;
+  }
+  .houses-container .gryffindor-section {
+    margin: 4% auto;
+    display: block;
+    border-radius: 30px;
+  }
+  .houses-container .hufflepuff-section {
+    margin: 4% auto;
+    display: block;
+    border-radius: 30px;
+  }
+  .houses-container .ravenclaw-section {
+    margin: 4% auto;
+    display: block;
+    border-radius: 30px;
+  }
+  .houses-container .slytherin-section {
+    margin: 4% auto;
+    display: block;
+    border-radius: 30px;
+  }
+}
 /* Home */
 /* Quizz */
 .quizz-container button {

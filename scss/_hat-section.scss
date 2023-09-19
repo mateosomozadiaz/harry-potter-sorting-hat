@@ -36,7 +36,24 @@
     }
     .image {
         img {
-            width: 300px;
+            width: 250px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .hat-container {
+        display: block;
+        .text {
+            width: 90%;
+            display: block;
+            margin: auto;
+        }
+        .image {
+            img {
+                margin: auto;
+                display: block;
+            }
         }
     }
 }
