@@ -268,27 +268,27 @@ footer a {
 /* Quizz */
 /* Comments Form */
 .form-container input {
-  margin-top: 2%;
   display: block;
   width: 40%;
-  margin-left: 30%;
+  margin: auto;
   background: transparent;
   border: 4px solid rgb(114, 32, 32);
   text-align: center;
   font-size: 120%;
   outline: none;
+  margin-top: 2%;
 }
 .form-container textarea {
-  margin-top: 2%;
   display: block;
   width: 40%;
-  margin-left: 30%;
+  margin: auto;
   background: transparent;
   border: 4px solid rgb(114, 32, 32);
   text-align: center;
   font-size: 120%;
   resize: none;
   outline: none;
+  margin-top: 2%;
 }
 .form-container button {
   width: 20%;
@@ -314,6 +314,17 @@ footer a {
   color: rgb(114, 32, 32);
 }
 
+@media only screen and (max-width: 700px) {
+  .form-container input {
+    width: 70%;
+  }
+  .form-container textarea {
+    width: 70%;
+  }
+  .form-container button {
+    width: 40%;
+  }
+}
 /* Comments Form */
 /* About */
 .about-container img {
@@ -328,8 +339,15 @@ footer a {
   margin: auto;
   display: block;
   font-weight: bold;
+  margin-top: 20px;
+  text-align: justify;
 }
 
+@media only screen and (max-width: 760px) {
+  .about-container img {
+    width: 50%;
+  }
+}
 /* About */
 /* Books */
 .books-container {

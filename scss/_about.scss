@@ -13,5 +13,15 @@
         margin: auto;
         display: block;
         font-weight: bold;
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .about-container {
+        img {
+            width: 50%;
+        }
     }
 }
