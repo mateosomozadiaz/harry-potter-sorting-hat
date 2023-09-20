@@ -19,9 +19,21 @@
     p {
         text-align: center;
         width: 50%;
-        margin-left: 25%;
+        margin: auto;
         border-bottom: 4px solid $red-ink;
         font-size: 120%;
         font-weight: bolder;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .quizz-container {
+        button {
+            width: 70%;
+        }
+        p {
+            width: 70%;
+        }
     }
 }
