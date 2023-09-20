@@ -6,15 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <title>Harry Potter: Sorting Hat</title>
   <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
   <header>
-    <h1 class="animate__jackInTheBox">Harry Potter: Sorting Hat</h1>
+    <h1 class="animate__animated animate__zoomInDown">Harry Potter: Sorting Hat</h1>
     <nav>
       <ul>
         <li class="nav-items"><a href="index.html"><u>Home</u></a></li>
@@ -50,7 +51,7 @@
     
     <section class="hat-container">
       <div class="image">
-        <img src="img/sorting-hat.png" alt="The sorting hat from Harry Potter" />
+        <img class="floating" src="img/sorting-hat.png" alt="The sorting hat from Harry Potter" />
       </div>
       <div class="text">
         <h2>Where shall I put you?</h2>
@@ -65,7 +66,7 @@
     </section>
 
     <section class="houses-container">
-      <article class="gryffindor-section">
+      <article class="gryffindor-section" data-aos="zoom-out-right">
       <div>
         <h3>Gryffindor</h3>
         <p>
@@ -77,7 +78,7 @@
     </div>
       <img src="img/gryffindor.png" alt="Gryffindor's logo">
     </article>
-    <article class="hufflepuff-section">
+    <article class="hufflepuff-section" data-aos="zoom-out-left">
       <img src="img/hufflepuff.png" alt="Hufflepuff's logo">
       <div>
         <h3>Hufflepuff</h3>
@@ -89,7 +90,7 @@
       </p>
     </div>
     </article>
-    <article class="ravenclaw-section">
+    <article class="ravenclaw-section" data-aos="zoom-out-right">
       <div>
         <h3>Ravenclaw</h3>
         <p>
@@ -101,7 +102,7 @@
     </div>
       <img src="img/ravenclaw.png" alt="Ravenclaw's logo">
     </article>
-    <article class="slytherin-section">
+    <article class="slytherin-section" data-aos="zoom-out-left">
       <img src="img/slytherin.png" alt="Slytherin's logo">
       <div>
         <h3>Slytherin</h3>
@@ -121,6 +122,11 @@
       <a href="https://github.com/mateosomozadiaz">Mateo Somoza Diaz</a>
     </p>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
