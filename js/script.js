@@ -93,6 +93,14 @@ function question10() {
     choiceD.textContent = "The dungeons";
 }
 
+function question11() {
+    question.textContent = "In which house would you like to be in?";
+    choiceA.textContent = "Gryffindor";
+    choiceB.textContent = "Hufflepuff";
+    choiceC.textContent = "Ravenclaw";
+    choiceD.textContent = "Slytherin";
+}
+
 /* System */
 
 question1()
@@ -154,6 +162,12 @@ function nextQuestion() {
     }
 
     if (questionNumber == 10) {
+        question11()
+        questionNumber++
+        return
+    }
+
+    if (questionNumber == 11) {
         /* Analize the Points for each house */
 
         let housePoints = gryffindor;
