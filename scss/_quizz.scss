@@ -1,5 +1,18 @@
 /* Quizz */
 
+#quizz-house-indicator {
+    text-align: center;
+    font-family: harry-potter;
+    font-size: 300%;
+}
+
+.hat {
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
 .quizz-container {
     button {
         width: 50%;
